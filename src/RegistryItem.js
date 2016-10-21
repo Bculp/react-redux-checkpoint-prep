@@ -6,6 +6,3 @@ export default ( {itemDetails, markAsPurchased} ) => (
         <h2>Item price: <span>{itemDetails.price}</span></h2>
     </div>
 );
-
-//<button onClick = {() => markAsPurchased(itemDetails.id)}>Purchase Item</button>
-
